@@ -141,13 +141,46 @@ Python notebook is available in **/python** folder.
 - **Technology category has the highest profit margin**
 - **Furniture category shows the lowest profitability**
 
+## Power BI Dashboard
+
+An interactive dashboard was created using Power BI to visualize retail sales performance.
+
+Key insights displayed in the dashboard:
+
+• Total Revenue and Total Profit KPIs  
+• Sales distribution by region  
+• Sales by product category  
+• Monthly sales trend analysis  
+• Profitability by category  
+
+### Dashboard Preview
+
+![Power BI Dashboard](powerbi/retail_sales_dashboard.png)
+
 ## Project Structure
 retail-sales-data-analysis
 │
 ├── dataset
+│   └── superstore_sales_dataset.csv
+│
 ├── sql
+│   ├── annual_sales.sql
+│   ├── monthly_sales.sql
+│   ├── regional_contribution.sql
+│   ├── category_profitability.sql
+│   └── sales_growth.sql
+│
 ├── python
+│   └── sales_analysis.ipynb
+│
 ├── visualizations
+│   ├── yearly_sales.png
+│   ├── monthly_sales_trend.png
+│
+├── powerbi
+│   ├── retail_sales_dashboard.png
+│   └── retail_sales_dashboard.pbix
+│
 └── README.md
 
 ##Author
